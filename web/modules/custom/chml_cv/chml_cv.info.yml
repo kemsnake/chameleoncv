@@ -1,0 +1,4 @@
+name: Chameleon CV
+type: module
+description: Customizations for Chameleon CV project.
+core_version_requirement: ^10

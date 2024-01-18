@@ -1,0 +1,14 @@
+.upgrade-cv-form {
+  .panel-default {
+    border: none;
+    .panel-heading {
+      background: none;
+      border: none;
+    }
+    .panel-title, label {
+      text-align: center;
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+}

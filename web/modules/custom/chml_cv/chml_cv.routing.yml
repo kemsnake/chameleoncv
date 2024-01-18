@@ -1,0 +1,14 @@
+chml_cv.upgrade_cv_form:
+  path: '/user/{user}/upgrade-cv'
+  defaults:
+    _form: '\Drupal\chml_cv\Form\UpgradeCvForm'
+    _title: 'Upgrade your CV'
+  requirements:
+    _permission: 'administer site configuration'
+chml_cv.settings:
+  path: '/admin/config/chml-cv/general'
+  defaults:
+    _form: '\Drupal\chml_cv\Form\GeneralSettingsForm'
+    _title: 'Chameleon CV general settings settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,38 @@
+{#
+/**
+* @file
+* Theme override for a 'form' element.
+*
+* Available variables:
+* - attributes: A list of HTML attributes for the wrapper element.
+* - children: The child elements of the form.
+*
+* @see template_preprocess_form()
+*/
+#}
+{%
+set classes = [
+'search-form',
+'search-block-form',
+]
+%}
+<form{{ attributes.addClass(classes) }}>
+  <div class="container">
+    <div class="col-sm-10">
+      <div class="col-sm-5">
+        {{ form.cv }}
+      </div>
+      <div class="col-sm-5">
+        {{ form.job }}
+      </div>
+      {{ form.actions }}
+    </div>
+    <div class="row col-sm-2">
+      Graph
+    </div>
+    <div class="row col-sm-12">
+      {{ form.response }}
+      {{ children }}
+    </div>
+  </div>
+</form>

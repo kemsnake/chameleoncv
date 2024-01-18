@@ -1,0 +1,5 @@
+chml_cv.settings:
+  title: 'Chameleon CV'
+  description: 'Configure Chameleon CV.'
+  route_name: chml_cv.settings
+  parent: system.admin_config_ui

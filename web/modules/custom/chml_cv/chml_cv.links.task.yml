@@ -1,0 +1,4 @@
+chml_cv.upgrade_cv:
+  title: Ugrade CV
+  route_name: chml_cv.upgrade_cv_form
+  base_route: entity.user.canonical
